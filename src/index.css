@@ -5,3 +5,11 @@
 .my-container {
   @apply max-w-7xl mx-auto px-5;
 }
+
+.bg-gradiant {
+  background-image: linear-gradient(
+    to left,
+    rgb(23, 47, 65, 0),
+    rgb(23, 47, 65)
+  );
+}

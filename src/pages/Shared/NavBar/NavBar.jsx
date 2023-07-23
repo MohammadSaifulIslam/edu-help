@@ -29,7 +29,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <Link to='/' className="text-2xl font-bold">Edu<span className="">Help</span></Link>
+                    <Link to='/' className="text-2xl font-bold">Edu<span className="text-secondary">Help</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-5 font-semibold">
