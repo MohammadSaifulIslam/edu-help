@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "collegeImage": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=740&t=st=1690127543~exp=1690128143~hmac=338cf27452bff19f833a90bf31fd1ca040238615da2cb969f481e306e6932b43",
+    "collegeName": "University of Science and Technology",
+    "admissionDates": {
+      "fall": "September 1 - October 15",
+      "spring": "January 15 - March 1",
+      "summer": "May 1 - June 15"
+    },
+    "researchHistory": "University of Science and Technology University has a long-standing tradition of research excellence, pioneering advancements in various fields, including science, technology, and humanities.",
+    "admissionProcess": "Prospective students can apply online through the university's official website or by submitting a paper application. The admissions committee carefully evaluates each application, considering academic achievements, extracurricular activities, and personal statements.",
+    "eventsDetails": {
+      "Orientation Day": "Orientation Day is an event organized at the beginning of each academic year to welcome new students and introduce them to campus facilities, academic programs, and support services.",
+      "Tech Symposium": "The annual Tech Symposium is a platform for students and researchers to present their innovative projects and cutting-edge technologies to industry experts and peers.",
+      "Cultural Fest": "The Cultural Fest celebrates the diversity and talent on campus, featuring performances, art exhibitions, and culinary delights from around the world.",
+      "Sports Meet": "The Sports Meet is an exciting event that brings students together to participate in various sports competitions, fostering a spirit of healthy competition and sportsmanship."
+    },
+    "researchWorks": [
+      {
+        "title": "Advancements in Renewable Energy",
+        "authors": ["Dr. John Smith", "Dr. Emily Johnson"],
+        "publicationDate": "2022-04-05",
+        "abstract": "This research paper explores the latest developments in renewable energy sources, focusing on solar and wind energy systems and their potential to mitigate environmental impacts."
+      },
+      {
+        "title": "AI and Robotics Integration",
+        "authors": ["Dr. David Lee", "Dr. Sarah Adams"],
+        "publicationDate": "2021-11-20",
+        "abstract": "This study investigates the integration of artificial intelligence and robotics to enhance automation and improve efficiency in various industries, such as manufacturing and healthcare."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Tennis",
+      "Track and Field",
+      "Volleyball"
+    ]
+  },
+  {
+    "id": 2,
+    "collegeImage": "https://img.freepik.com/free-photo/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany_181624-17876.jpg?w=740&t=st=1690128565~exp=1690129165~hmac=ca158193ae299b93c30b2653dd89890f7f04f0dd630102dba1a75b19a4f50205",
+    "collegeName": "California College of Arts",
+    "admissionDates": {
+      "fall": "October 1 - November 30",
+      "spring": "February 15 - April 15",
+      "summer": "June 15 - July 30"
+    },
+    "researchHistory": "California College of Arts is renowned for nurturing creative minds, producing talented artists, writers, musicians, and performers who leave a mark on the world of arts.",
+    "admissionProcess": "Aspiring artists and performers can apply to California College of Arts by submitting their portfolios, audition tapes, or participating in on-campus auditions. The selection process emphasizes artistic talent, creativity, and passion for the arts.",
+    "eventsDetails": {
+      "Art Exhibition": "The Art Exhibition showcases the exceptional artworks of students and faculty, providing an opportunity for budding artists to display their talents.",
+      "Theater Showcase": "The Theater Showcase presents a series of captivating performances staged by drama students, exploring various genres and theatrical expressions.",
+      "Literary Readings": "Literary Readings feature renowned authors and poets who share their literary works and engage in discussions about literature and storytelling.",
+      "Music Festival": "The Music Festival brings together musicians and music enthusiasts to celebrate diverse musical traditions, with concerts and workshops for participants."
+    },
+    "researchWorks": [
+      {
+        "title": "Abstract Expressionism: A Historical Perspective",
+        "authors": ["Prof. Rachel Turner"],
+        "publicationDate": "2023-02-10",
+        "abstract": "This research provides an in-depth analysis of Abstract Expressionism, tracing its roots, key artists, and the influence it had on modern art movements."
+      },
+      {
+        "title": "The Intersection of Poetry and Visual Arts",
+        "authors": ["Dr. Michael Anderson", "Prof. Laura Davis"],
+        "publicationDate": "2021-10-18",
+        "abstract": "This study explores the interplay between poetry and visual arts, examining how poetic expression can be enhanced and complemented by artistic visuals."
+      }
+    ],
+    "sportsCategories": [
+      "Soccer",
+      "Basketball",
+      "Swimming",
+      "Volleyball",
+      "Dance",
+      "Yoga"
+    ]
+  },
+  {
+    "id": 3,
+    "collegeImage": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?w=826&t=st=1690128651~exp=1690129251~hmac=a752b9b1a179d584e76d379ff0e772d817787443e79f25a4342e77b942639e1b",
+    "collegeName": "EFG Engineering Institute",
+    "admissionDates": {
+      "fall": "September 20 - November 15",
+      "spring": "January 5 - February 28",
+      "summer": "May 15 - July 10"
+    },
+    "researchHistory": "EFG Engineering Institute has a legacy of excellence in engineering education, producing skilled engineers who have contributed to technological advancements and infrastructure development.",
+    "admissionProcess": "Prospective engineering students can apply online through the institute's website. The admission process involves an entrance examination and a personal interview to assess candidates' academic potential and engineering aptitude.",
+    "eventsDetails": {
+      "Engineering Expo": "The Engineering Expo is an annual event where students showcase their innovative engineering projects and prototypes, demonstrating their problem-solving skills and creativity.",
+      "Industry Seminars": "Industry Seminars provide students with insights into the latest trends and challenges in engineering, as industry experts share their knowledge and experiences.",
+      "Tech Hackathon": "The Tech Hackathon is a competitive event that challenges students to develop tech solutions for real-world problems within a limited time frame.",
+      "Robotics Competition": "The Robotics Competition allows students to design and build robots to participate in various challenges, encouraging teamwork and practical application of engineering principles."
+    },
+    "researchWorks": [
+      {
+        "title": "Advances in Sustainable Infrastructure",
+        "authors": ["Dr. Robert Johnson", "Dr. Sophia Miller"],
+        "publicationDate": "2022-05-15",
+        "abstract": "This research focuses on sustainable infrastructure practices, analyzing materials and design approaches to ensure long-term environmental and economic viability."
+      },
+      {
+        "title": "Artificial Intelligence in Engineering",
+        "authors": ["Dr. Adam Williams", "Dr. Emma Brown"],
+        "publicationDate": "2021-12-08",
+        "abstract": "This study explores the integration of artificial intelligence in engineering applications, from smart systems to automated manufacturing processes."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Cricket",
+      "Table Tennis",
+      "Badminton"
+    ]
+  },
+  {
+    "id": 4,
+    "collegeImage": "https://example.com/college4.jpg",
+    "collegeName": "LMN Medical College",
+    "admissionDates": {
+      "fall": "August 15 - September 30",
+      "spring": "December 1 - January 31",
+      "summer": "April 1 - May 15"
+    },
+    "researchHistory": "LMN Medical College is a leading institution for medical education and research, fostering medical professionals who contribute to advancements in healthcare and patient care.",
+    "admissionProcess": "Aspiring medical students must appear for medical entrance exams, and the selection is based on merit and scores obtained in the exams. Shortlisted candidates undergo an interview process to assess their dedication to the medical profession.",
+    "eventsDetails": {
+      "White Coat Ceremony": "The White Coat Ceremony is a symbolic event where new medical students are welcomed into the medical community and encouraged to uphold the values of ethics and compassion.",
+      "Medical Symposium": "The Medical Symposium features discussions and presentations on the latest medical research and advancements, bringing together medical experts and students.",
+      "Health Outreach Camps": "Health Outreach Camps provide medical services to underserved communities, giving students practical exposure and an understanding of the challenges faced in healthcare access.",
+      "Medical Drama Fest": "The Medical Drama Fest presents skits and plays that explore medical scenarios and ethical dilemmas, emphasizing the importance of empathy and patient-centered care."
+    },
+    "researchWorks": [
+      {
+        "title": "Advances in Precision Medicine",
+        "authors": ["Dr. Susan Turner", "Dr. Michael Harris"],
+        "publicationDate": "2023-03-20",
+        "abstract": "This research examines precision medicine's potential to provide personalized treatments based on individual genetics, leading to better patient outcomes and disease management."
+      },
+      {
+        "title": "Mental Health and Well-being",
+        "authors": ["Dr. Laura Adams", "Dr. Andrew Carter"],
+        "publicationDate": "2021-11-28",
+        "abstract": "This study explores mental health challenges, focusing on early identification, intervention strategies, and destigmatizing mental health issues in society."
+      }
+    ],
+    "sportsCategories": [
+      "Cricket",
+      "Basketball",
+      "Volleyball",
+      "Swimming",
+      "Yoga",
+      "Table Tennis"
+    ]
+  },
+  {
+    "id": 5,
+    "collegeImage": "https://example.com/college5.jpg",
+    "collegeName": "PQR Business School",
+    "admissionDates": {
+      "fall": "October 10 - December 31",
+      "spring": "February 20 - April 30",
+      "summer": "June 30 - August 15"
+    },
+    "researchHistory": "PQR Business School is dedicated to producing exceptional business leaders, offering programs that nurture entrepreneurial skills and innovation in the corporate world.",
+    "admissionProcess": "Applicants can apply to PQR Business School by submitting their academic records, GMAT/GRE scores, and essays. Shortlisted candidates are invited for group discussions and personal interviews.",
+    "eventsDetails": {
+      "Leadership Summit": "The Leadership Summit brings together industry leaders and students to discuss leadership challenges and strategies for driving business success.",
+      "Entrepreneurship Expo": "The Entrepreneurship Expo showcases innovative business ideas and startups by students, providing networking opportunities with potential investors and mentors.",
+      "Finance Conclave": "The Finance Conclave focuses on financial trends and investments, with experts sharing insights into managing portfolios and making informed financial decisions.",
+      "Marketing Carnival": "The Marketing Carnival involves interactive sessions and workshops on marketing strategies, exploring ways to connect with consumers in a dynamic market."
+    },
+    "researchWorks": [
+      {
+        "title": "Sustainable Business Practices",
+        "authors": ["Dr. Richard Turner", "Dr. Jennifer Adams"],
+        "publicationDate": "2022-06-12",
+        "abstract": "This research examines sustainable business practices, analyzing their impact on environmental conservation, social responsibility, and long-term profitability."
+      },
+      {
+        "title": "Digital Marketing Trends",
+        "authors": ["Dr. Mark Davis", "Dr. Lisa Anderson"],
+        "publicationDate": "2021-10-30",
+        "abstract": "This study explores emerging digital marketing trends and the integration of technology in marketing campaigns, leveraging data-driven approaches for better audience engagement."
+      }
+    ],
+    "sportsCategories": [
+      "Basketball",
+      "Cricket",
+      "Tennis",
+      "Badminton",
+      "Running",
+      "Swimming"
+    ]
+  },
+  {
+    "id": 6,
+    "collegeImage": "https://example.com/college6.jpg",
+    "collegeName": "LMNOP Law School",
+    "admissionDates": {
+      "fall": "October 5 - December 15",
+      "spring": "February 5 - April 15",
+      "summer": "June 5 - July 15"
+    },
+    "researchHistory": "LMNOP Law School is renowned for producing outstanding legal professionals, imparting knowledge and skills to uphold justice and promote the rule of law.",
+    "admissionProcess": "Aspiring law students must clear the Law School Admission Test (LSAT) or other entrance exams. Shortlisted candidates undergo interviews and case discussions to assess their analytical and reasoning abilities.",
+    "eventsDetails": {
+      "Moot Court Competitions": "Moot Court Competitions provide students with mock courtroom experiences, enabling them to hone their advocacy skills and legal arguments.",
+      "Legal Debates": "Legal Debates cover contemporary legal issues, where students present their arguments and counter-arguments, encouraging critical thinking and persuasive speaking.",
+      "Legal Aid Clinics": "Legal Aid Clinics offer pro bono legal services to marginalized communities, allowing students to apply legal knowledge in real-life situations and address social justice issues.",
+      "Guest Lectures": "Guest Lectures by eminent jurists and legal experts offer insights into landmark cases and legal reforms, enriching students' understanding of the legal profession."
+    },
+    "researchWorks": [
+      {
+        "title": "Criminal Justice Reform",
+        "authors": ["Dr. William Turner", "Dr. Jessica Roberts"],
+        "publicationDate": "2022-07-25",
+        "abstract": "This research delves into criminal justice reforms, analyzing the need for fairer sentencing, prisoner rehabilitation, and alternatives to incarceration."
+      },
+      {
+        "title": "Gender and Family Law",
+        "authors": ["Dr. Elizabeth Walker", "Dr. James Carter"],
+        "publicationDate": "2021-12-02",
+        "abstract": "This study explores gender-based legal issues, including family law matters and gender equality in marriage, divorce, and property rights."
+      }
+    ],
+    "sportsCategories": [
+      "Basketball",
+      "Football",
+      "Volleyball",
+      "Cricket",
+      "Badminton",
+      "Table Tennis"
+    ]
+  },
+  {
+    "id": 7,
+    "collegeImage": "https://example.com/college7.jpg",
+    "collegeName": "UVW School of Journalism",
+    "admissionDates": {
+      "fall": "September 15 - November 30",
+      "spring": "January 15 - March 31",
+      "summer": "May 15 - July 15"
+    },
+    "researchHistory": "UVW School of Journalism has a legacy of producing exceptional journalists, fostering media professionals committed to truth, ethics, and responsible reporting.",
+    "admissionProcess": "Prospective journalism students must submit writing samples and appear for entrance tests. Shortlisted candidates go through group discussions and interviews to assess their writing skills and passion for journalism.",
+    "eventsDetails": {
+      "Media Workshops": "Media Workshops offer hands-on training in journalism practices, including news reporting, photojournalism, video storytelling, and digital media.",
+      "Journalism Conferences": "Journalism Conferences bring together media experts and students to discuss emerging trends, media ethics, and the role of journalism in shaping public opinion.",
+      "Press Freedom Day": "Press Freedom Day celebrates the fundamental right to freedom of expression, reflecting on the challenges and importance of a free press in a democratic society.",
+      "Investigative Reporting": "Investigative Reporting sessions focus on in-depth research and reporting, empowering students to uncover hidden truths and expose issues of public interest."
+    },
+    "researchWorks": [
+      {
+        "title": "Media Ethics in the Digital Age",
+        "authors": ["Dr. Sarah Turner", "Dr. Andrew Davis"],
+        "publicationDate": "2022-08-10",
+        "abstract": "This research examines media ethics challenges in the digital era, addressing issues of misinformation, privacy, and maintaining journalistic integrity."
+      },
+      {
+        "title": "Impact of Social Media on Journalism",
+        "authors": ["Dr. Michael Roberts", "Dr. Emily Harris"],
+        "publicationDate": "2021-12-15",
+        "abstract": "This study analyzes the impact of social media on journalism practices, exploring the opportunities and challenges posed by digital platforms in news dissemination."
+      }
+    ],
+    "sportsCategories": [
+      "Basketball",
+      "Football",
+      "Table Tennis",
+      "Volleyball",
+      "Running",
+      "Swimming"
+    ]
+  },
+  {
+    "id": 8,
+    "collegeImage": "https://example.com/college8.jpg",
+    "collegeName": "STU School of Computer Science",
+    "admissionDates": {
+      "fall": "October 5 - December 1",
+      "spring": "January 10 - February 28",
+      "summer": "June 1 - July 15"
+    },
+    "researchHistory": "STU School of Computer Science is at the forefront of computer and information technology education, producing skilled IT professionals and researchers.",
+    "admissionProcess": "Prospective computer science students can apply online and must appear for a computer science aptitude test. Shortlisted candidates undergo technical interviews and problem-solving assessments.",
+    "eventsDetails": {
+      "Tech Expo": "The Tech Expo showcases innovative projects and research by computer science students, demonstrating their expertise in software development and cutting-edge technologies.",
+      "Hackathons": "Hackathons provide students with opportunities to work on coding challenges and develop creative solutions within a competitive environment.",
+      "Industry Talks": "Industry Talks feature tech experts and professionals sharing their experiences and insights into the latest trends and advancements in the IT industry.",
+      "Startup Incubation Program": "The Startup Incubation Program supports aspiring entrepreneurs in developing tech startups, offering mentorship and resources to nurture their ventures."
+    },
+    "researchWorks": [
+      {
+        "title": "Machine Learning Applications",
+        "authors": ["Dr. Robert Walker", "Dr. Emma James"],
+        "publicationDate": "2023-09-18",
+        "abstract": "This research explores machine learning applications, ranging from natural language processing to image recognition, and their potential to revolutionize various industries."
+      },
+      {
+        "title": "Cybersecurity and Data Privacy",
+        "authors": ["Dr. William Turner", "Dr. Laura Adams"],
+        "publicationDate": "2021-11-30",
+        "abstract": "This study addresses cybersecurity challenges and the need to safeguard data privacy, examining strategies to protect sensitive information in the digital age."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Table Tennis",
+      "Badminton",
+      "Swimming",
+      "Running"
+    ]
+  },
+  {
+    "id": 9,
+    "collegeImage": "https://example.com/college9.jpg",
+    "collegeName": "UVX Institute of Medicine",
+    "admissionDates": {
+      "fall": "August 25 - October 15",
+      "spring": "December 1 - January 31",
+      "summer": "May 1 - June 30"
+    },
+    "researchHistory": "UVX Institute of Medicine is dedicated to producing skilled healthcare professionals and conducting medical research that contributes to advancements in medical science.",
+    "admissionProcess": "Aspiring medical students must clear the Medical College Admission Test (MCAT) or other medical entrance exams. Shortlisted candidates undergo interviews to assess their dedication to the medical field and aptitude for healthcare.",
+    "eventsDetails": {
+      "Medical Camps": "Medical Camps provide healthcare services to underserved communities, giving students practical experience in providing medical care and promoting community health.",
+      "Medical Conferences": "Medical Conferences bring together medical experts and students to discuss medical research findings, cutting-edge treatments, and challenges in healthcare delivery.",
+      "Health Awareness Drives": "Health Awareness Drives focus on educating the public about preventive healthcare measures, empowering communities to lead healthier lives.",
+      "Medical Drama Fest": "The Medical Drama Fest presents skits and plays that explore medical scenarios and ethical dilemmas, emphasizing the importance of empathy and patient-centered care."
+    },
+    "researchWorks": [
+      {
+        "title": "Precision Medicine in Oncology",
+        "authors": ["Dr. Susan Turner", "Dr. Michael Harris"],
+        "publicationDate": "2023-10-25",
+        "abstract": "This research focuses on precision medicine approaches in oncology, tailoring treatments to individual cancer patients based on genetic profiles for improved outcomes."
+      },
+      {
+        "title": "Global Health and Infectious Diseases",
+        "authors": ["Dr. Elizabeth Walker", "Dr. James Carter"],
+        "publicationDate": "2021-12-05",
+        "abstract": "This study examines global health challenges, including infectious diseases, and explores strategies for global health equity and disease prevention."
+      }
+    ],
+    "sportsCategories": [
+      "Football",
+      "Basketball",
+      "Volleyball",
+      "Cricket",
+      "Tennis",
+      "Swimming"
+    ]
+  },
+  {
+    "id": 10,
+    "collegeImage": "https://example.com/college10.jpg",
+    "collegeName": "RST School of Fine Arts",
+    "admissionDates": {
+      "fall": "September 10 - October 31",
+      "spring": "January 20 - March 15",
+      "summer": "June 10 - July 31"
+    },
+    "researchHistory": "RST School of Fine Arts fosters artistic creativity and expression, producing talented artists who contribute to the world of visual arts, performing arts, and design.",
+    "admissionProcess": "Aspiring artists can apply to RST School of Fine Arts by submitting their portfolios and appearing for on-campus auditions or interviews. The selection process emphasizes artistic talent, creativity, and passion for the arts.",
+    "eventsDetails": {
+      "Art Exhibition": "The Art Exhibition showcases the exceptional artworks of students and faculty, providing an opportunity for budding artists to display their talents.",
+      "Theater Performances": "Theater Performances include a range of plays and performances staged by drama students, exploring various genres and theatrical expressions.",
+      "Design Workshops": "Design Workshops offer hands-on training in various design disciplines, from graphic design to industrial design, nurturing creativity and innovative thinking.",
+      "Music Concerts": "The Music Concerts feature talented musicians and vocalists, providing a delightful experience for music enthusiasts and aspiring musicians."
+    },
+    "researchWorks": [
+      {
+        "title": "Exploring Contemporary Sculpture",
+        "authors": ["Prof. Rachel Turner"],
+        "publicationDate": "2023-08-15",
+        "abstract": "This research delves into contemporary sculpture practices, examining how artists experiment with materials and spatial concepts to create compelling sculptures."
+      },
+      {
+        "title": "Narratives in Visual Arts",
+        "authors": ["Dr. Michael Anderson", "Dr. Laura Davis"],
+        "publicationDate": "2021-11-12",
+        "abstract": "This study analyzes narrative elements in visual artworks, exploring how artists convey stories, emotions, and social commentaries through their creations."
+      }
+    ],
+    "sportsCategories": [
+      "Basketball",
+      "Football",
+      "Volleyball",
+      "Table Tennis",
+      "Running",
+      "Yoga"
+    ]
+  }
+]
