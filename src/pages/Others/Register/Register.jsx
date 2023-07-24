@@ -5,8 +5,9 @@ import { Link, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
 import saveUser from "../../../apis/auth/auth";
-// import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
+
 import useAuth from "../../hooks/useAuth";
+import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
 
 const Register = () => {
     const { createUser, updateUser, } = useAuth()
@@ -172,7 +173,7 @@ const Register = () => {
                 <button className='my-btn w-full mt-5'>Create an account</button>
                 <p className='text-error text-center mt-2'>{error}</p>
                 <p className='text-center mt-2'>Already have an account? <Link to='/login' className='text-primary underline'>Login</Link></p>
-                {/* <SocialLogin /> */}
+                <SocialLogin />
             </form>
         </section>
     );

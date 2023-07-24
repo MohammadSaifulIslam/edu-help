@@ -6,8 +6,9 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
-// import SocialLogin from '../../Shared/SocialLogin/SocialLogin';
+
 import { AuthContext } from '../../../providers/AuthProvider/AuthProvider';
+import SocialLogin from '../../Shared/SocialLogin/SocialLogin';
 const Login = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     // const { loginUser } = useAuth()
@@ -72,7 +73,8 @@ const Login = () => {
                 <button className='my-btn w-full mt-5'>Login</button>
                 <p className='text-error text-center mt-2'>{error}</p>
                 <p className='text-center mt-2'>Don't have an account? <Link to='/register' className='text-priborder-primary underline'>Create an account</Link></p>
-                {/* <SocialLogin /> */}
+                <SocialLogin />
+
             </form>
         </section>
     );

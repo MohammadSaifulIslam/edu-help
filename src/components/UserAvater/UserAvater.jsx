@@ -7,7 +7,7 @@ const UserAvater = () => {
         <div>
             {
                 user ?
-                    <figure className="hover-text h-10 w-10 ml-4 cursor-pointer">
+                    <figure className="hover-text h-14 w-14 ml-4 cursor-pointer">
                         <img className='w-full h-full rounded-full' src={user?.photoURL} alt="user photo" />
                         <span className="tooltip-text" id="left">{user?.displayName}</span>
                     </figure>

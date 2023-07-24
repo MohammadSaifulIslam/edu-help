@@ -6,7 +6,7 @@ import useAuth from "../../hooks/useAuth";
 const Navbar = () => {
     const { user } = useAuth()
     return (
-        <section className=" bg-white py-2 relative border-b-2 border-primary">
+        <section className=" bg-white py-1 relative border-b-2 border-primary">
             <nav className="my-container navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -39,7 +39,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <Link to='/' className="text-2xl font-bold">Edu<span className="text-secondary">Help</span></Link>
+                    <Link to='/' className="font-bold text-xl md:text-3xl" style={{ fontFamily: ['Bruno Ace SC', 'cursive'] }}>Edu<span className='text-secondary'>Help</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-5 font-semibold">
@@ -73,7 +73,7 @@ const Navbar = () => {
                         user ?
                             <UserAvater />
                             :
-                            <Link to={'/login'}><button className="my-btn">Login</button></Link>
+                            <Link to={'/colleges'}><button className="my-btn">Get Started</button></Link>
                     }
                 </div>
             </nav>
