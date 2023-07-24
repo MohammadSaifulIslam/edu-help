@@ -13,3 +13,10 @@
     rgb(23, 47, 65)
   );
 }
+
+.my-input {
+  @apply px-5 py-2 w-full rounded-3xl border focus:outline-primary;
+}
+.my-btn {
+  @apply uppercase text-white font-medium rounded bg-primary  px-5 py-2 cursor-pointer duration-300 hover:bg-blend-darken active:scale-110;
+}

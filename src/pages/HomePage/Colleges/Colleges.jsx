@@ -4,7 +4,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const Colleges = () => {
     const [colleges, setColleges] = useState([]);
     useEffect(() => {
-        fetch('/colleges.json')
+        fetch('http://localhost:5000/colleges')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
@@ -16,7 +16,7 @@ const Colleges = () => {
             <div className="grid md:grid-cols-3 gap-5">
                 {
                     colleges.slice(0, 3).map(college =>
-                        <CollegeCard key={college.id} college={college}>               </CollegeCard>)
+                        <CollegeCard key={college._id} college={college}>               </CollegeCard>)
                 }
             </div>
         </section>

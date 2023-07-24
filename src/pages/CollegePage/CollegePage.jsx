@@ -5,7 +5,7 @@ import SectionTitle from "../../components/SectionTitle/SectionTitle";
 const CollegePage = () => {
     const [colleges, setColleges] = useState([]);
     useEffect(() => {
-        fetch('/colleges.json')
+        fetch('http://localhost:5000/colleges')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])
@@ -17,7 +17,7 @@ const CollegePage = () => {
             <div className="grid md:grid-cols-3 gap-5">
                 {
                     colleges.map(college =>
-                        <CollegeCard key={college.id} college={college}>               </CollegeCard>)
+                        <CollegeCard key={college._id} college={college}>               </CollegeCard>)
                 }
             </div>
         </div>
