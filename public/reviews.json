@@ -1,0 +1,37 @@
+[
+  {
+    "id": 101,
+    "student_name": "John D.",
+    "rating": 4.8,
+    "review": "My university experience has been extraordinary. The diverse campus community and supportive faculty have enriched my learning journey. I've had countless opportunities for personal and academic growth. Grateful for the incredible memories and friendships that will last a lifetime.",
+    "student_image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph"
+  },
+  {
+    "id": 102,
+    "student_name": "Emily S.",
+    "rating": 4.9,
+    "review": "Choosing this university was a life-changing decision. The engaging academic programs and state-of-the-art facilities fostered my passion for learning. I am constantly inspired by the collaborative learning environment and the encouragement to pursue my dreams.",
+    "student_image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph"
+  },
+  {
+    "id": 103,
+    "student_name": "Michael L.",
+    "rating": 4.7,
+    "review": "Attending this university has been a transformative experience. The faculty's expertise and mentorship have guided me towards my career goals. I've grown both personally and professionally, and I'm grateful for the lifelong connections I've made.",
+    "student_image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph"
+  },
+  {
+    "id": 104,
+    "student_name": "Sophia W.",
+    "rating": 4.5,
+    "review": "I couldn't have asked for a better university experience. The campus atmosphere is welcoming, and the extracurricular activities have allowed me to explore my interests beyond academics. It's been an unforgettable journey filled with learning and self-discovery.",
+    "student_image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph"
+  },
+  {
+    "id": 105,
+    "student_name": "Alex M.",
+    "rating": 4.6,
+    "review": "This university has exceeded my expectations. The cutting-edge research opportunities and dedicated faculty have inspired me to pursue my passion for innovation. I've grown intellectually and personally, and I'm excited about the future this university has paved for me.",
+    "student_image": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph"
+  }
+]
