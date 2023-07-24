@@ -13,5 +13,6 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
     'react/no-unescaped-entities': 0,
     'react/prop-types':0,
+    'react/jsx-no-target-blank':0,
   },
 }

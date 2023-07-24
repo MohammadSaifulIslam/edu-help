@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "collegeImage": "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=740&t=st=1690127543~exp=1690128143~hmac=338cf27452bff19f833a90bf31fd1ca040238615da2cb969f481e306e6932b43",
     "collegeName": "University of Science and Technology",
     "admissionDates": {
@@ -40,7 +39,6 @@
     ]
   },
   {
-    "id": 2,
     "collegeImage": "https://img.freepik.com/free-photo/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany_181624-17876.jpg?w=740&t=st=1690128565~exp=1690129165~hmac=ca158193ae299b93c30b2653dd89890f7f04f0dd630102dba1a75b19a4f50205",
     "collegeName": "California College of Arts",
     "admissionDates": {
@@ -80,7 +78,6 @@
     ]
   },
   {
-    "id": 3,
     "collegeImage": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?w=826&t=st=1690128651~exp=1690129251~hmac=a752b9b1a179d584e76d379ff0e772d817787443e79f25a4342e77b942639e1b",
     "collegeName": "EFG Engineering Institute",
     "admissionDates": {
@@ -120,7 +117,6 @@
     ]
   },
   {
-    "id": 4,
     "collegeImage": "https://example.com/college4.jpg",
     "collegeName": "LMN Medical College",
     "admissionDates": {
@@ -160,7 +156,6 @@
     ]
   },
   {
-    "id": 5,
     "collegeImage": "https://example.com/college5.jpg",
     "collegeName": "PQR Business School",
     "admissionDates": {
@@ -200,7 +195,6 @@
     ]
   },
   {
-    "id": 6,
     "collegeImage": "https://example.com/college6.jpg",
     "collegeName": "LMNOP Law School",
     "admissionDates": {
@@ -240,7 +234,6 @@
     ]
   },
   {
-    "id": 7,
     "collegeImage": "https://example.com/college7.jpg",
     "collegeName": "UVW School of Journalism",
     "admissionDates": {
@@ -280,7 +273,6 @@
     ]
   },
   {
-    "id": 8,
     "collegeImage": "https://example.com/college8.jpg",
     "collegeName": "STU School of Computer Science",
     "admissionDates": {
@@ -320,7 +312,6 @@
     ]
   },
   {
-    "id": 9,
     "collegeImage": "https://example.com/college9.jpg",
     "collegeName": "UVX Institute of Medicine",
     "admissionDates": {
@@ -360,7 +351,6 @@
     ]
   },
   {
-    "id": 10,
     "collegeImage": "https://example.com/college10.jpg",
     "collegeName": "RST School of Fine Arts",
     "admissionDates": {
