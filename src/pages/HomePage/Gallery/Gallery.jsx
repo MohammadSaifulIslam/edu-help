@@ -20,7 +20,7 @@ const Gallery = () => {
             alt: 'Campus Life Captured',
         },
         {
-            src: 'https://img.freepik.com/free-photo/portrait-group-students-celebrating-their-graduation_23-2148201834.jpg?w=740&t=st=1690135594~exp=1690136194~hmac=48feb6b00e49f1b79b0321d97edc8a592ad9a641d6a2a14fe955036971454edd',
+            src: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
             alt: 'Campus Life Captured',
         },
         {

@@ -117,7 +117,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college4.jpg",
+    "collegeImage": "https://img.freepik.com/free-photo/building_1127-3357.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph",
     "collegeName": "LMN Medical College",
     "admissionDates": {
       "fall": "August 15 - September 30",
@@ -156,7 +156,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college5.jpg",
+    "collegeImage": "https://img.freepik.com/free-photo/diverse-young-male-female-student-holding-books-takeaway-coffee-cup-standing-front-building_23-2148093548.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph",
     "collegeName": "PQR Business School",
     "admissionDates": {
       "fall": "October 10 - December 31",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college6.jpg",
+    "collegeImage": "https://img.freepik.com/free-photo/low-angle-cheerful-team-students-passed-test-by-preparing-all-together_496169-2336.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph",
     "collegeName": "LMNOP Law School",
     "admissionDates": {
       "fall": "October 5 - December 15",
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college7.jpg",
+    "collegeImage": "https://img.freepik.com/free-photo/modern-amphitheater-usa_1268-14358.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=sph",
     "collegeName": "UVW School of Journalism",
     "admissionDates": {
       "fall": "September 15 - November 30",
@@ -273,7 +273,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college8.jpg",
+    "collegeImage": "https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     "collegeName": "STU School of Computer Science",
     "admissionDates": {
       "fall": "October 5 - December 1",
@@ -312,7 +312,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college9.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1581362072978-14998d01fdaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVuaXZlcnNpdHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     "collegeName": "UVX Institute of Medicine",
     "admissionDates": {
       "fall": "August 25 - October 15",
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "collegeImage": "https://example.com/college10.jpg",
+    "collegeImage": "https://images.unsplash.com/photo-1583373834259-46cc92173cb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHVuaXZlcnNpdHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     "collegeName": "RST School of Fine Arts",
     "admissionDates": {
       "fall": "September 10 - October 31",

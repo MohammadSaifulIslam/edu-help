@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
 
     return (
-        <section className=" bg-white py-2 relative">
+        <section className=" bg-white py-2 relative border-b-2 border-primary">
             <nav className="my-container navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
