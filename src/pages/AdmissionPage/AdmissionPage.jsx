@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BsCalendarCheck } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const AdmissionPage = () => {
@@ -50,7 +51,7 @@ const AdmissionPage = () => {
                                 </td>
                                 <td> <div className="flex gap-3 items-center mb-2"> <BsCalendarCheck className="w-5 h-5" /><span className="text-[#172F41]">{college.admissionDates?.fall}</span></div></td>
                                 <th>
-                                    <button className="my-btn ">Apply Now</button>
+                                    <Link to={`/apply-form/${college._id}`}><button className="my-btn ">Apply Now</button></Link>
                                 </th>
                             </tr>
                             )

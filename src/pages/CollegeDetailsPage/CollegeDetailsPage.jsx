@@ -16,8 +16,7 @@ const CollegeDetailsPage = () => {
             })
     }, [id])
     const { collegeImage, collegeName, admissionProcess, admissionDates, researchHistory
-        , researchWorks, eventsDetails,sportsCategories } = college;
-    console.log(eventsDetails)
+        , researchWorks, eventsDetails,sportsCategories ,_id} = college;
 
     if (isLoading) {
         return
@@ -69,7 +68,7 @@ const CollegeDetailsPage = () => {
                 </div>
             </div>
             <div className="text-center">
-            <Link><button className="my-btn mt-5 ">Apply Now</button></Link>
+            <Link to={`/apply-form/${_id}`}><button className="my-btn mt-5" >Apply Now</button></Link>
             </div>
         </div>
     );

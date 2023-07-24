@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layouts/Main";
 import AdmissionPage from "../pages/AdmissionPage/AdmissionPage";
+import ApplyPage from "../pages/ApplyPage/ApplyPage";
 import CollegeDetailsPage from "../pages/CollegeDetailsPage/CollegeDetailsPage";
 import CollegePage from "../pages/CollegePage/CollegePage";
 import Home from "../pages/HomePage/Home/Home";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
           path: '/admission',
           element: <AdmissionPage/>
+        },
+        {
+          path: '/apply-form/:id',
+          element: <ApplyPage/>
         },
         {
           path: '/login',
