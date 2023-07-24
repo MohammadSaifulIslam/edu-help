@@ -29,6 +29,14 @@ const Navbar = () => {
                                     Admission
                                 </NavLink>
                             </li>
+                            {
+                                user &&
+                                <li>
+                                    <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                        My College
+                                    </NavLink>
+                                </li>
+                            }
                         </ul>
                     </div>
                     <Link to='/' className="text-2xl font-bold">Edu<span className="text-secondary">Help</span></Link>
@@ -50,6 +58,14 @@ const Navbar = () => {
                                 Admission
                             </NavLink>
                         </li>
+                        {
+                            user &&
+                            <li>
+                                <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                    My College
+                                </NavLink>
+                            </li>
+                        }
                     </ul>
                 </div>
                 <div className="navbar-end">

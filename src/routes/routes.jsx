@@ -5,6 +5,7 @@ import ApplyPage from "../pages/ApplyPage/ApplyPage";
 import CollegeDetailsPage from "../pages/CollegeDetailsPage/CollegeDetailsPage";
 import CollegePage from "../pages/CollegePage/CollegePage";
 import Home from "../pages/HomePage/Home/Home";
+import MyCollegePage from "../pages/MyCollegePage/MyCollegePage";
 import Login from "../pages/Others/Login/Login";
 import Register from "../pages/Others/Register/Register";
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         {
           path: '/admission',
           element: <AdmissionPage/>
+        },
+        {
+          path: '/my-college',
+          element: <MyCollegePage/>
         },
         {
           path: '/apply-form/:id',

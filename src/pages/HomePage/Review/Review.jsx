@@ -42,7 +42,8 @@ const Review = () => {
                             <SwiperSlide key={review.id}>
                                 <div className='p-5 mb-5'>
                                     <img src={review.student_image} alt="" className='img w-10 h-10 rounded-full' />
-                                    <h3 className=' text-2xl font-bold mb-4'>{review.student_name}</h3>
+                                    <h3 className=' text-2xl font-bold mb-1'>{review.student_name}</h3>
+                                    <h6 className='mb-5 text-xl font-medium'>About <span className='text-secondary'>{review.college_name}</span></h6>
                                     <Rating
                                         placeholderRating={review.rating}
                                         emptySymbol={<BsStar className='h-6 w-6' />}
