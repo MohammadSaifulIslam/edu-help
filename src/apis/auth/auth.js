@@ -1,6 +1,6 @@
 // save user information on database
 export const saveUser = (email,userInformation) => {
-    fetch(`${import.meta.env.VITE_LOCALHOST}/users/${email}`, {
+    fetch(`http://localhost:5000/users/${email}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

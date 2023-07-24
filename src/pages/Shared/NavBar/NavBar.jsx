@@ -1,8 +1,10 @@
 
 import { Link, NavLink } from "react-router-dom";
+import UserAvater from "../../../components/UserAvater/UserAvater";
+import useAuth from "../../hooks/useAuth";
 
 const Navbar = () => {
-
+    const { user } = useAuth()
     return (
         <section className=" bg-white py-2 relative border-b-2 border-primary">
             <nav className="my-container navbar">
@@ -51,7 +53,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={'/login'}><button className="my-btn">Login</button></Link>
+                    {
+                        user ?
+                            <UserAvater />
+                            :
+                            <Link to={'/login'}><button className="my-btn">Login</button></Link>
+                    }
                 </div>
             </nav>
         </section>
