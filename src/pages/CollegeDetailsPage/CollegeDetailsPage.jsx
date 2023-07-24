@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 import { BsCalendarCheck } from "react-icons/bs";
 import { Link, useParams } from "react-router-dom";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
+import LoadingSpinner from "../Others/LoadingSpinner/LoadingSpinner";
 
 const CollegeDetailsPage = () => {
     const { id } = useParams();
     const [isLoading, setIsLoading] = useState(true);
     const [college, setCollege] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/colleges/${id}`)
+        fetch(`https://edu-help-server.vercel.app/colleges/${id}`)
             .then(res => res.json())
             .then(data => {
                 setCollege(data)
@@ -19,7 +20,7 @@ const CollegeDetailsPage = () => {
         , researchWorks, eventsDetails,sportsCategories ,_id} = college;
 
     if (isLoading) {
-        return
+        return <LoadingSpinner/>
     }
     return (
         <div className="mt-20 my-container">

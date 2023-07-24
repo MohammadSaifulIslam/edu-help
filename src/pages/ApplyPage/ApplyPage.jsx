@@ -1,15 +1,18 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
+import LoadingSpinner from "../Others/LoadingSpinner/LoadingSpinner";
 import useAuth from "../hooks/useAuth";
 const ApplyPage = () => {
     const { user } = useAuth();
     const { id } = useParams();
+    const navigate = useNavigate()
+
     const [isLoading, setIsLoading] = useState(true);
     const [college, setCollege] = useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/colleges/${id}`)
+        fetch(`https://edu-help-server.vercel.app/colleges/${id}`)
             .then(res => res.json())
             .then(data => {
                 setCollege(data)
@@ -49,7 +52,7 @@ const ApplyPage = () => {
         const applyInfo = { name, birth_date, number, address, subject, email: user.email, college_name: college.collegeName, college_image: college.collegeImage }
 
         console.log({ applyInfo })
-        fetch('http://localhost:5000/apply-form', {
+        fetch('https://edu-help-server.vercel.app/apply-form', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -66,11 +69,12 @@ const ApplyPage = () => {
                         timer: 1500
                     })
                     reset()
+                    navigate('/my-college')
                 }
             })
     }
     if (isLoading) {
-        return
+        return <LoadingSpinner/>
     }
     console.log(college.collegeName)
     return (

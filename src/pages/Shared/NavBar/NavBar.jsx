@@ -73,7 +73,7 @@ const Navbar = () => {
                         user ?
                             <UserAvater />
                             :
-                            <Link to={'/colleges'}><button className="my-btn">Get Started</button></Link>
+                            <Link to={'/colleges'}><button className="my-btn text-sm">Get Started</button></Link>
                     }
                 </div>
             </nav>

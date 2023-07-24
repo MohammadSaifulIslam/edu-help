@@ -2,15 +2,23 @@ import { useEffect, useState } from 'react';
 import { BsCalendarCheck } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import LoadingSpinner from '../Others/LoadingSpinner/LoadingSpinner';
 
 const AdmissionPage = () => {
+    const [isLoading, setIsLoading] = useState(true)
     const [colleges, setColleges] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/colleges')
+        fetch('https://edu-help-server.vercel.app/colleges')
             .then(res => res.json())
-            .then(data => setColleges(data))
+            .then(data => {
+                setColleges(data)
+                setIsLoading(false)
+            })
     }, [])
 
+    if (isLoading) {
+        return <LoadingSpinner />
+    }
     return (
         <div className='my-container mt-20'>
             <SectionTitle title={'Admisssion Now'} />

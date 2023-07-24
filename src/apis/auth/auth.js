@@ -1,6 +1,6 @@
 // save user information on database
 export const saveUser = (email,userInformation) => {
-    fetch(`http://localhost:5000/users/${email}`, {
+    fetch(`https://edu-help-server.vercel.app/users/${email}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
