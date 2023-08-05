@@ -1,6 +1,7 @@
 
 import { BsArrowRight } from "react-icons/bs";
-const ResearchPaperCard = ({ paper }) => {
+import { Link } from "react-router-dom";
+const ResearchPaperCard = ({ paper,isButton }) => {
     return (
         <div>
             <figure>
@@ -11,7 +12,10 @@ const ResearchPaperCard = ({ paper }) => {
                 <p><span className="font-medium">Student Name: </span>{paper.student_name}</p>
                 <p> <span className="font-medium">College Name:</span> {paper.college_name}</p>
                 <p><span className="font-medium">Research Details:</span> {paper.research_details.slice(0, 110)}...</p>
-                <a href="#" className="font-medium mt-2 flex items-center gap-2 text-[#E32845] hover:text-[#172F41] duration-300">Go To Page <BsArrowRight className="w-5 h-5"/></a>
+                {
+                    isButton && 
+                    <Link to={`/research/${paper._id}`} className="font-medium mt-2 flex items-center gap-2 text-[#E32845] hover:text-[#172F41] duration-300">Go To Page <BsArrowRight className="w-5 h-5"/></Link>
+                }
             </div>
         </div>
     );

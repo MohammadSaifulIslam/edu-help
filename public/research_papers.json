@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "student_name": "Emma Johnson",
     "college_name": "University of Science and Technology",
     "image": "https://img.freepik.com/free-photo/office-equipment-put-table_23-2147651022.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=ais",
@@ -8,7 +7,6 @@
     "research_details": "Emma's research focuses on the latest developments in renewable energy technologies. Her study explores the efficiency of solar, wind, and hydroelectric power systems, aiming to contribute to sustainable energy solutions for the future."
   },
   {
-    "id": 2,
     "student_name": "Michael Chen",
     "college_name": "Stanford University & Institute",
     "image": "https://img.freepik.com/free-photo/business-people-meeting-office-writing-memos-sticky-notes_1150-37739.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=ais",
@@ -16,7 +14,6 @@
     "research_details": "Michael's research delves into the applications of artificial intelligence in the healthcare sector. His study investigates AI-driven diagnostics, predictive modeling, and personalized treatment plans, aiming to improve patient outcomes and optimize medical processes."
   },
   {
-    "id": 3,
     "student_name": "Sophia Williams",
     "college_name": "Massachusetts Institute of Technology (MIT)",
     "image": "https://img.freepik.com/free-photo/office-equipment-put-table_23-2147651021.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=ais",
@@ -24,7 +21,6 @@
     "research_details": "Sophia's research centers on the potential of nanotechnology for environmental cleanup. She explores the use of nanomaterials in pollutant removal, soil restoration, and water purification, aiming to provide innovative solutions to pressing environmental challenges."
   },
   {
-    "id": 4,
     "student_name": "David Lee",
     "college_name": "California Institute of Technology (Caltech)",
     "image": "https://img.freepik.com/free-photo/business-women-signature-document_1388-90.jpg?size=626&ext=jpg&uid=R59828080&ga=GA1.2.562300066.1684249269&semt=ais",

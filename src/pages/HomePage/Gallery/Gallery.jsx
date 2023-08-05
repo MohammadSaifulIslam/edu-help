@@ -33,7 +33,7 @@ const Gallery = () => {
       
         <SectionTitle title={'Gallery'} subTitle={'Campus Life Captured: Relive Memorable University Moments in Our Gallery. Experience the vibrant spirit of university life through captivating images. '}/>
         
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid  grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((image, index) => (
            <div key={index} className="overflow-hidden">
              <div  className={`relative h-80 hover:scale-125 duration-700 `}>

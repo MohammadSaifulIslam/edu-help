@@ -5,7 +5,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const ResearchPaper = () => {
     const [researchPapers, setResearchPapers] = useState([]);
     useEffect(() => {
-        fetch('/research_papers.json')
+        fetch('http://localhost:5000/researches')
             .then(res => res.json())
             .then(data => setResearchPapers(data))
     }, [])
@@ -16,7 +16,7 @@ const ResearchPaper = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
                 {
-                    researchPapers.map(paper => <ResearchPaperCard key={paper.id} paper={paper}></ResearchPaperCard>)
+                    researchPapers.map(paper => <ResearchPaperCard key={paper._id} paper={paper} isButton={true}></ResearchPaperCard>)
                 }
             </div>
         </section>
