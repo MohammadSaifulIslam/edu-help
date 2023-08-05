@@ -31,12 +31,12 @@ const CollegeDetailsPage = () => {
                         <img src={collegeImage} alt="University Photo" className="rounded-xl md:h-[400px]  w-full object-cover" />
                     </figure>
                     <div>
-                        <h2 className="text-3xl font-bold text-secondary mb-5">{collegeName}</h2>
+                        <h2 className="text-3xl font-bold text-[#E32845] mb-5">{collegeName}</h2>
                         <p className="flex gap-3 items-center font-medium mb-2"> <BsCalendarCheck className="w-5 h-5" /> Admission Period: </p>
                         <ul className="text-sm">
-                            <li> <div className="flex items-center mb-2 gap-2"> <span>Spring:</span><span className="text-secondary">{admissionDates?.spring}</span></div></li>
-                            <li> <div className="flex items-center mb-2 gap-2"> <span>Summer:</span><span className="text-secondary">{admissionDates?.summer}</span></div></li>
-                            <li> <div className="flex items-center mb-2 gap-2"> <span>Fall:</span><span className="text-secondary">{admissionDates?.fall}</span></div></li>
+                            <li> <div className="flex items-center mb-2 gap-2"> <span>Spring:</span><span className="text-[#E32845]">{admissionDates?.spring}</span></div></li>
+                            <li> <div className="flex items-center mb-2 gap-2"> <span>Summer:</span><span className="text-[#E32845]">{admissionDates?.summer}</span></div></li>
+                            <li> <div className="flex items-center mb-2 gap-2"> <span>Fall:</span><span className="text-[#E32845]">{admissionDates?.fall}</span></div></li>
                         </ul>
                         <p className="mt-4"><span className="font-medium mt-4">Admission Proccess</span> {admissionProcess}</p>
                         <p className="mt-2"><span className="font-medium ">Research History</span> {researchHistory}</p>
@@ -46,22 +46,22 @@ const CollegeDetailsPage = () => {
                 </div>
                 <div className="grid md:grid-cols-2 gap-5 mt-10">
                     <div>
-                        <h4 className="text-secondary text-3xl font-bold text-center mb-5">Our Research Works</h4>
+                        <h4 className="text-[#E32845] text-3xl font-bold text-center mb-5">Our Research Works</h4>
                         {
                             researchWorks.map((work, index) => <div key={index} className="p-5 rounded-md shadow-lg mb-5">
-                                <h5 className="text-xl text-primary mb-4"><span className="font-medium text-secondary">Title: </span> {work.title}</h5>
+                                <h5 className="text-xl text-[#172F41] mb-4"><span className="font-medium text-[#E32845]">Title: </span> {work.title}</h5>
                                 <div className="flex gap-3 items-center my-2"> <BsCalendarCheck className="w-5 h-5" /><span className="text-[#172F41]">{work.publicationDate}</span></div>
-                                <div><span className="font-medium text-secondary">Author: </span> {work.authors.map((author, index) => <span key={index}>{author ? author : ''}, </span>)}</div>
-                                <p><span className="font-medium text-secondary">Abstract:</span> {work.abstract}</p>
+                                <div><span className="font-medium text-[#E32845]">Author: </span> {work.authors.map((author, index) => <span key={index}>{author ? author : ''}, </span>)}</div>
+                                <p><span className="font-medium text-[#E32845]">Abstract:</span> {work.abstract}</p>
                             </div>)
                         }
                     </div>
                     <div>
-                        <h4 className="text-secondary text-3xl font-bold text-center mb-5">Event Details</h4>
+                        <h4 className="text-[#E32845] text-3xl font-bold text-center mb-5">Event Details</h4>
                         <ul>
                             {Object.entries(eventsDetails).map(([event, description]) => (
                                 <li key={event} className="p-5 rounded-md shadow-lg mb-5">
-                                    <span className="text-secondary font-medium">{event}:</span> {description}
+                                    <span className="text-[#E32845] font-medium">{event}:</span> {description}
                                 </li>
                             ))}
                         </ul>

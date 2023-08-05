@@ -6,7 +6,7 @@ import useAuth from "../../hooks/useAuth";
 const Navbar = () => {
     const { user } = useAuth()
     return (
-        <section className=" bg-white py-1 relative border-b-2 border-primary">
+        <section className=" bg-white py-1 relative border-b-2 border-[#172F41]">
             <nav className="my-container navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -15,53 +15,53 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-black text-lg font-semibold">
                             <li>
-                                <NavLink to='/' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                <NavLink to='/' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/colleges' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                <NavLink to='/colleges' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                     Colleges
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/admission' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                <NavLink to='/admission' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                     Admission
                                 </NavLink>
                             </li>
                             {
                                 user &&
                                 <li>
-                                    <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                    <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                         My College
                                     </NavLink>
                                 </li>
                             }
                         </ul>
                     </div>
-                    <Link to='/' className="font-bold text-xl md:text-3xl" style={{ fontFamily: ['Bruno Ace SC', 'cursive'] }}>Edu<span className='text-secondary'>Help</span></Link>
+                    <Link to='/' className="font-bold text-xl md:text-3xl" style={{ fontFamily: ['Bruno Ace SC', 'cursive'] }}>Edu<span className='text-[#E32845]'>Help</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-5 font-semibold">
                         <li>
-                            <NavLink to='/' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                            <NavLink to='/' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                 Home
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to='/colleges' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                            <NavLink to='/colleges' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                 Colleges
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to='/admission' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                            <NavLink to='/admission' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                 Admission
                             </NavLink>
                         </li>
                         {
                             user &&
                             <li>
-                                <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-secondary' : ''}>
+                                <NavLink to='/my-college' className={({ isActive }) => isActive ? 'text-[#E32845]' : ''}>
                                     My College
                                 </NavLink>
                             </li>

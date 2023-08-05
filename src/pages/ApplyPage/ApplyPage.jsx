@@ -80,7 +80,7 @@ const ApplyPage = () => {
     return (
         <div className='my-container mt-10'>
             <form onSubmit={handleSubmit(onSubmit)} className="p-10 ">
-                <h2 className="text-primary text-xl font-bold mb-5 text-center">Application Form</h2>
+                <h2 className="text-[#172F41] text-xl font-bold mb-5 text-center">Application Form</h2>
                 <div className="grid md:grid-cols-2 gap-5">
                     <div className="form-control">
                         <label className="label">

@@ -37,15 +37,15 @@ const MyCollegePage = () => {
                             {/* head */}
                             <thead>
                                 <tr className='text-white'>
-                                    <th className='bg-primary'>
+                                    <th className='bg-[#172F41]'>
                                         <label>
                                             No.
                                         </label>
                                     </th>
-                                    <th className='bg-primary'>College Photo</th>
-                                    <th className='bg-primary'>College Name</th>
-                                    <th className='bg-primary'>Subject</th>
-                                    <th className='bg-primary'>Feedback</th>
+                                    <th className='bg-[#172F41]'>College Photo</th>
+                                    <th className='bg-[#172F41]'>College Name</th>
+                                    <th className='bg-[#172F41]'>Subject</th>
+                                    <th className='bg-[#172F41]'>Feedback</th>
 
                                 </tr>
                             </thead>
@@ -69,7 +69,7 @@ const MyCollegePage = () => {
                                         </td>
                                         <td>{college.subject}</td>
                                         <th>
-                                            <Link to={`/apply-form/${college._id}`}><button className="my-btn ">Review</button></Link>
+                                            <Link><button className="my-btn ">Review</button></Link>
                                         </th>
                                     </tr>
                                     )

@@ -27,7 +27,7 @@ const Footer = () => {
                 <div>
                     <span className="footer-title">Newsletter</span>
                     <div className='text-white'>
-                        <Link to='/' className="font-bold text-xl md:text-3xl mb-5" style={{ fontFamily: ['Bruno Ace SC', 'cursive'] }}>Edu<span className='text-secondary'>Help</span></Link>
+                        <Link to='/' className="font-bold text-xl md:text-3xl mb-5" style={{ fontFamily: ['Bruno Ace SC', 'cursive'] }}>Edu<span className='text-[#E32845]'>Help</span></Link>
                        
                     </div>
                     <div className="form-control w-80">
@@ -36,7 +36,7 @@ const Footer = () => {
                         </label>
                         <div className="relative">
                             <input type="email" placeholder="username@site.com" className="input input-bordered w-full pr-16 text-black" />
-                            <button className="btn bg-secondary absolute top-0 right-0 rounded-l-none ">Subscribe</button>
+                            <button className="btn bg-[#E32845] absolute top-0 right-0 rounded-l-none ">Subscribe</button>
                         </div>
                     </div>
                 </div>

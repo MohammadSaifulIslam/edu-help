@@ -28,15 +28,15 @@ const AdmissionPage = () => {
                     {/* head */}
                     <thead>
                         <tr className='text-white'>
-                            <th className='bg-primary'>
+                            <th className='bg-[#172F41]'>
                                 <label>
                                     No.
                                 </label>
                             </th>
-                            <th className='bg-primary'>Photo</th>
-                            <th className='bg-primary'>College Name</th>
-                            <th className='bg-primary'>Admission Date</th>
-                            <th className='bg-primary'>Action</th>
+                            <th className='bg-[#172F41]'>Photo</th>
+                            <th className='bg-[#172F41]'>College Name</th>
+                            <th className='bg-[#172F41]'>Admission Date</th>
+                            <th className='bg-[#172F41]'>Action</th>
 
                         </tr>
                     </thead>

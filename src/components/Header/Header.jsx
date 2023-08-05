@@ -12,7 +12,7 @@ const Header = () => {
         logOut()
     }
     return (
-        <section className="bg-primary text-white text-sm md:text-base">
+        <section className="bg-[#172F41] text-white text-sm md:text-base">
             <div className="my-container py-4 flex flex-col md:flex-row md:justify-between items-center gap-2">
                 <div className="flex gap-4 ">
                     <div className="flex gap-2 items-center"><BsFillTelephoneForwardFill className="h-4 w-4" /> +01875-00001</div>

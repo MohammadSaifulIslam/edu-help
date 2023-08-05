@@ -86,8 +86,8 @@ const Register = () => {
 
     return (
         <section className='my-container my-10 '>
-            <form onSubmit={handleSubmit(onSubmit)} className='mx-5 rounded-xl shadow-xl  md:w-1/3 md:mx-auto px-5 py-10 border-2 border-primary text-primary'>
-                <h4 className='text-primary text-2xl font-bold mb-5 text-center'>Register Form</h4>
+            <form onSubmit={handleSubmit(onSubmit)} className='mx-5 rounded-xl shadow-xl  md:w-1/3 md:mx-auto px-5 py-10 border-2 border-[#172F41] text-[#172F41]'>
+                <h4 className='text-[#172F41] text-2xl font-bold mb-5 text-center'>Register Form</h4>
                 <div className="form-control mb-3">
                     <label className="label">
                         <span className="label-text">Your Name</span>
@@ -172,7 +172,7 @@ const Register = () => {
                 </div>
                 <button className='my-btn w-full mt-5'>Create an account</button>
                 <p className='text-error text-center mt-2'>{error}</p>
-                <p className='text-center mt-2'>Already have an account? <Link to='/login' className='text-primary underline'>Login</Link></p>
+                <p className='text-center mt-2'>Already have an account? <Link to='/login' className='text-[#172F41] underline'>Login</Link></p>
                 <SocialLogin />
             </form>
         </section>

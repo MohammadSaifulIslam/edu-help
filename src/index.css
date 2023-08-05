@@ -15,8 +15,8 @@
 }
 
 .my-input {
-  @apply px-5 py-2 w-full rounded-3xl border focus:outline-primary;
+  @apply px-5 py-2 w-full rounded-3xl border focus:outline-[#172F41];
 }
 .my-btn {
-  @apply uppercase text-white font-medium rounded bg-primary  px-5 py-2 cursor-pointer duration-300 hover:bg-blend-darken active:scale-110;
+  @apply uppercase text-white font-medium rounded bg-[#172F41]  px-5 py-2 cursor-pointer duration-300 hover:bg-blend-darken active:scale-110;
 }
