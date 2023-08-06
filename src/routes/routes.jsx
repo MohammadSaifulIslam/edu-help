@@ -9,6 +9,7 @@ import MyCollegePage from "../pages/MyCollegePage/MyCollegePage";
 import Login from "../pages/Others/Login/Login";
 import Register from "../pages/Others/Register/Register";
 import ResearchDetailsPage from "../pages/ResearchDetailsPage/ResearchDetailsPage";
+import ReviewPageHome from "../pages/ReviewPage/ReviewPageHome";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
         {
           path: '/research/:id',
           element: <ResearchDetailsPage/>
+        },
+        {
+          path: '/review/:id',
+          element: <ReviewPageHome/>
         },
         {
           path: '/my-college',

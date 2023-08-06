@@ -10,13 +10,15 @@ import './Review.css';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 import { useEffect, useState } from 'react';
-import { BsStar, BsStarFill } from 'react-icons/bs';
-import Rating from "react-rating";
+// import Rating from "react-rating";
+import { Rating } from '@smastrom/react-rating';
+
+import '@smastrom/react-rating/style.css';
 
 const Review = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('/reviews.json')
+        fetch('https://edu-help-server.vercel.app/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -27,10 +29,10 @@ const Review = () => {
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     pagination={{
                         clickable: true,
                     }}
@@ -39,17 +41,15 @@ const Review = () => {
                 >
                     {
                         reviews.map(review =>
-                            <SwiperSlide key={review.id}>
+                            <SwiperSlide key={review._id}>
                                 <div className='p-5 mb-5'>
                                     <img src={review.student_image} alt="" className='img w-10 h-10 rounded-full' />
                                     <h3 className=' text-2xl font-bold mb-1'>{review.student_name}</h3>
                                     <h6 className='mb-5 text-xl font-medium'>About <span className='text-[#E32845]'>{review.college_name}</span></h6>
                                     <Rating
-                                        placeholderRating={review.rating}
-                                        emptySymbol={<BsStar className='h-6 w-6' />}
-                                        placeholderSymbol={<BsStarFill className='h-6 w-6 text-warning' />}
-                                        fullSymbol={<BsStarFill className='h-6 w-6 text-warning' />}
-                                        readonly
+                                        style={{ maxWidth: 180 , margin: '0 auto'}}
+                                        value={review.rating}
+                                        readOnly
                                     />
                                     <p>{review.review}</p>
                                 </div>

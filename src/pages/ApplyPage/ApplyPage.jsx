@@ -49,7 +49,7 @@ const ApplyPage = () => {
 
         const { name, birth_date, number, address, subject } = data
 
-        const applyInfo = { name, birth_date, number, address, subject, email: user.email, college_name: college.collegeName, college_image: college.collegeImage }
+        const applyInfo = { name, birth_date, number, address, subject, email: user.email, college_name: college.collegeName, college_image: college.collegeImage, collegeId: college._id }
 
         console.log({ applyInfo })
         fetch('https://edu-help-server.vercel.app/apply-form', {
@@ -76,7 +76,7 @@ const ApplyPage = () => {
     if (isLoading) {
         return <LoadingSpinner/>
     }
-    console.log(college.collegeName)
+
     return (
         <div className='my-container mt-10'>
             <form onSubmit={handleSubmit(onSubmit)} className="p-10 ">

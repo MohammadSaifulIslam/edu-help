@@ -8,9 +8,9 @@ const ResearchDetailsPage = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [paper, setPaper] = useState({})
     const { id } = useParams();
-    console.log(id)
+    
     useEffect(() => {
-        fetch(`http://localhost:5000/research/${id}`)
+        fetch(`https://edu-help-server.vercel.app/research/${id}`)
             .then(res => res.json())
             .then(data => {
                 setPaper(data)

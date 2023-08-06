@@ -20,6 +20,7 @@ const MyCollegePage = () => {
     if (isLoading) {
         return <LoadingSpinner />
     }
+    
     return (
         <div className='mt-20 my-container'>
             <SectionTitle title={'My Applications'} />
@@ -69,7 +70,7 @@ const MyCollegePage = () => {
                                         </td>
                                         <td>{college.subject}</td>
                                         <th>
-                                            <Link><button className="my-btn ">Review</button></Link>
+                                            <Link to={`/review/${college._id}`}><button className="my-btn ">Review</button></Link>
                                         </th>
                                     </tr>
                                     )

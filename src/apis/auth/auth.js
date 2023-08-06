@@ -9,7 +9,6 @@ export const saveUser = (email,userInformation) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
       });
   };
   

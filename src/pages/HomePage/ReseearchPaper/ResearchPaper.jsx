@@ -5,7 +5,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 const ResearchPaper = () => {
     const [researchPapers, setResearchPapers] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/researches')
+        fetch('https://edu-help-server.vercel.app/researches')
             .then(res => res.json())
             .then(data => setResearchPapers(data))
     }, [])
